@@ -319,7 +319,7 @@ form input:hover {
 .cooperation {
   width: 100vw;
   background: url(img/BCM.jpg) no-repeat;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -381,20 +381,21 @@ form input:hover {
 
 #item3 {
   padding-top: 75px;
-  margin-top: -75px;
+  margin-top: -50px;
 }
 
 .card {
   /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);*/
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   line-height: 25px;
   font-size: 18px;
 }
 
 .card-text {
   width: 600px;
+
 }
 
 h4 {
