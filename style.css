@@ -221,7 +221,7 @@ a {
 
 /*Section*/
 
-.TopInfo {
+.top-info {
   width: 100%;
   padding-top: 160px;
   height: 450px;
@@ -299,7 +299,7 @@ form input:hover {
   transition: 0.4s ease-in-out;
 }
 
-.hlavniInfo p {
+.top-info p {
   font-size: 18px;
   line-height: 30px;
   margin-top: 0;
@@ -310,18 +310,40 @@ form input:hover {
   margin-top: -75px;
 }
 
+.hlavni-info p {
+  font-size: 18px;
+  line-height: 30px;
+  margin-top: 0;
+}
+
+.cooperation {
+  width: 100vw;
+  background: url(img/BCM.jpg) no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+.cooperation-text {
+  margin: 0 0 50px;
+  font-size: 20px;
+  line-height: 30px
+}
+
 .square {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
   align-items: center;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 
-.text {
+.square-text {
   width: 260px;
-  height: 250px;
-  background: #0e25cb;
+  height: 240px;
+  background: rgba(14, 37, 203, 0.3);
   color: #fff;
 }
 
@@ -338,12 +360,6 @@ form input:hover {
 #item5 {
   padding-top: 75px;
   margin-top: -75px;
-}
-
-.textCooperation {
-  margin: 0 0 50px;
-  font-size: 18px;
-  line-height: 30px
 }
 
 .mapa {
