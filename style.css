@@ -260,11 +260,11 @@ ul {
   padding-left: 0;
 }
 
-.info {
-  margin-top: 25px;
+.top-info_text {
+  margin-top: 50px;
 }
 
-.info li {
+.top-info_text li {
   line-height: 40px;
   color: #FFF;
   list-style: none;
